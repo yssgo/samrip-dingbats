@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+@font-face {
+  font-family: "Sandoll 삼립 TTF Basic";
+  src: local( "Sandoll 삼립 TTF Basic"),
+       url("SDSamlipTTFBasic.woff") format('woff'),
+       url("SDSamlipTTFBasic.ttf") format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-FFFF;
+}
+.삼립호빵 {
+  font-family: "Sandoll 삼립 TTF Basic"
+}
+.삼립호빵.설명 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.삼립호빵.예시 > div:hover {
+    background-color: silver;
+}
+a.download-anchor {
+    text-decoration: none;
+    border: outset 3px #0f5252;
+    color: black;
+    background-color: silver;
+    padding : 5px;
+    font-family: "Sandoll 삼립 TTF Basic"
+}
